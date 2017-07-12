@@ -26,7 +26,6 @@ export default class extends React.Component {
 	}
 	componentWillMount() {
 		getSVG('archae0pteryx').then(svg => {
-			// console.log("SVG ", svg)
 			this.setState({ svg: svg, loading: false });
 		});
 	}
