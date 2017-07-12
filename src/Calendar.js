@@ -2,16 +2,16 @@ import React from 'react'
 import cheerio from 'cheerio'
 import axios from 'axios'
 
-const baseURL = 'https://github.com/archae0pteryx'
+const baseURL = 'https://crossorigin.me/https://github.com/'
 
 const opts = {
     headers: {
-		"Authorization": 'token 3b5bc180d175e8c76622681daee9944e450eb327',
-		'X-Requested-With': 'XMLHttpRequest',
-		'Access-Control-Allow-Origin': '*',
+		// "Authorization": 'token 3b5bc180d175e8c76622681daee9944e450eb327',
+		// 'X-Requested-With': 'XMLHttpRequest',
+		// 'Access-Control-Allow-Origin': '*',
 		// 'Access-Control-Allow-Methods': 'GET',
-		'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
-		'Content-Type': 'application/json'
+		// 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
+		// 'Content-Type': 'application/json'
 	}
 };
 function getSVG(user) {
