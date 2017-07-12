@@ -1,7 +1,7 @@
 {
   "name": "react-ghcal",
   "version": "0.0.0",
-  "description": "Calander",
+  "description": "Calendar",
   "main": "dist/react-ghcal.min.js",
   "homepage": "https://github.com/archae0pteryx/react-ghcal",
   "authors": [

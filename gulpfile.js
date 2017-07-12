@@ -4,7 +4,7 @@ var initGulpTasks = require('react-component-gulp-tasks');
 var taskConfig = {
 
 	component: {
-		name: 'Calander',
+		name: 'Calendar',
 		dependencies: [
 			'classnames',
 			'react',
